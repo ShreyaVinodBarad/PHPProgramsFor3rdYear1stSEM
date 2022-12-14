@@ -1,21 +1,22 @@
 <html>
-<head>
-<title> Form Handling With PHP</title>
-</head>
-<body>
-<form action="Form_Handling.php" method="post">
+    <head>
+        <title>Form Handling with PHP and MySQL</title>
+    </head>
+    <form action="Form_Handling.php" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname"/><br>
 
-<label for="name">Name</label>
-<input type="text" name="name"/>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname"/><br>
 
-<label for="email">Email</label>
-<input type="email" name="email"/>
+        <label for="email">Email Address</label>
+        <input type="text" name="email"/><br>
 
-<label for="password">Password</label>
-<input type="password" name="password"/>
+        <input type="submit" name="submitButton" value="Submit"/>
 
-<input type="submit"/>
 
-</form>
-</body>
+
+
+
+    </form>
 </html>
